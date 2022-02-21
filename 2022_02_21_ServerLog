@@ -1,0 +1,84 @@
+2022-02-21 15:06:06 [info]:adjust timer once
+2022-02-21 15:06:06 [info]:Accept:GET / HTTP/1.1
+Host: 114.55.108.63:9006
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6
+
+
+2022-02-21 15:06:06 [info]:adjust timer once
+2022-02-21 15:06:08 [info]:adjust timer once
+2022-02-21 15:06:08 [info]:Accept:POST /1 HTTP/1.1
+Host: 114.55.108.63:9006
+Connection: keep-alive
+Content-Length: 0
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://114.55.108.63:9006
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://114.55.108.63:9006/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6
+
+
+2022-02-21 15:06:08 [info]:adjust timer once
+2022-02-21 15:06:10 [info]:adjust timer once
+2022-02-21 15:06:10 [info]:Accept:POST /2CGISQL.cgi HTTP/1.1
+Host: 114.55.108.63:9006
+Connection: keep-alive
+Content-Length: 21
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://114.55.108.63:9006
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://114.55.108.63:9006/1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6
+
+user=zaf&password=zaf
+2022-02-21 15:06:10 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:Accept:POST /6 HTTP/1.1
+Host: 114.55.108.63:9006
+Connection: keep-alive
+Content-Length: 0
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://114.55.108.63:9006
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://114.55.108.63:9006/2CGISQL.cgi
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6
+
+
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:Accept:GET /xxx.mp4 HTTP/1.1
+Host: 114.55.108.63:9006
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Encoding: identity;q=1, *;q=0
+Accept: */*
+Referer: http://114.55.108.63:9006/6
+Accept-Language: zh-CN,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6
+Range: bytes=0-
+
+
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:12 [info]:adjust timer once
+2022-02-21 15:06:13 [info]:adjust timer once
+2022-02-21 15:06:13 [info]:close fd 25

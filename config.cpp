@@ -26,7 +26,7 @@ Config::Config(){
     thread_num = 20;
 
     //关闭日志,默认不关闭,1表示关闭
-    close_log = 1;
+    close_log = 0;
 
     //并发模型,0是proactor，1是reactor
     actor_model = 1;

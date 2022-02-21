@@ -1,8 +1,7 @@
 #ifndef MY_TINY_WEB_UTIL_H
 #define MY_TINY_WEB_UTIL_H
-//#include "util_time.h"
+#include "util_time.h"
 
-#include "time_wheel.h"
 class Util
 {
 
@@ -10,9 +9,9 @@ public:
     static int *u_pipefd;
     static int u_epollfd;
     int        m_timeslot; //时间间隔：每隔这些秒触发一次SIGALARM信号
-    //sort_time_list m_pTime_list;
+    sort_time_list m_pTime_list;
 
-    time_wheel m_pTime_list;
+    //time_wheel m_pTime_list;
 public:
 
     Util(){};
