@@ -3,6 +3,7 @@
 
 #include <pthread.h>
 #include <list>
+#include <exception>
 #include "../lock/sem.h"
 #include "../lock/cond.h"
 #include "../lock/locker.h"
@@ -35,8 +36,6 @@ private:
     void run();
 };
 
-#include "threadpool.h"
-#include <exception>
 
 
 template <typename T>
