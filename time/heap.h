@@ -34,7 +34,7 @@ void mystl_heap<T>::push(value_type &value)
 
     int lastIndex = oldSize-1;
     int pushIndex = lastIndex+1;
-    int fathreIndex = (lastIndex-1)>>1;
+    int fatherIndex = (lastIndex-1)>>1;
     if((lastIndex&1)==0)
     {
         //插入前，最后一个元素在右节点；

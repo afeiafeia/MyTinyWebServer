@@ -5,7 +5,7 @@
 #define BUFFSIZE 64
 #include <netinet/in.h>
 #include <ctime>
-#include "heap.h"
+#include <vector>
 class util_time;
 struct client_data
 {
@@ -21,28 +21,42 @@ public:
     time_t       m_CurTime;
     client_data* m_pUser_data;
 
+    time_t m_expire;//失效时间
+
+
 public:
 
-    bool operator<(const util_time& rhs)
+    util_time(int delayTime)
     {
-        return m_CurTime<rhs.m_CurTime;
+        m_expire = time(NULL)+delayTime;
     }
-    bool operator>(const util_time& rhs)
-    {
-        return m_CurTime>rhs.m_CurTime;
-    }
+    void (*cb_func)(client_data* ipdata);
 };
 
 class time_heap
 {
 private:
-    mystl_heap<util_time> time_heap;
+    //堆数组
+    std::vector<util_time*> m_vctTimer;
 
-    void add_timer(util_time* ipAddTime);
 
-    void del_timer(util_time* ipDelTime);
+public:
+    time_heap(int capacity);
+
+    void add_time(util_time* ipAddTime);
+
+    void del_time();
 
     void tick();
+
 };
+
+
+
+
+
+
+
+
 
 #endif
