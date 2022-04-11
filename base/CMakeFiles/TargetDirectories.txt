@@ -1,0 +1,5 @@
+/home/interview/MyTinyWeb/base/CMakeFiles/rebuild_cache.dir
+/home/interview/MyTinyWeb/base/CMakeFiles/EventLoop_Test.dir
+/home/interview/MyTinyWeb/base/CMakeFiles/base.dir
+/home/interview/MyTinyWeb/base/CMakeFiles/edit_cache.dir
+/home/interview/MyTinyWeb/base/CMakeFiles/LogTest.dir
