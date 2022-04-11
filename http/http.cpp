@@ -182,7 +182,7 @@ void http_conn::process()
         close(m_sockfd);
     }
 
-    modfd(EPOLLOUT);//将相应报文放在了发送缓冲区，开始监视可读事件，可读时把响应报文发送出去
+    modfd(EPOLLOUT);//将相应报文放在了发送缓冲区，开始监视可写事件，可些时把响应报文发送出去
 
     //此时并不会重新监测读事件，
     //会在之后调用write中发送响应报文，发送完成才会再次监测可读事件
@@ -293,7 +293,7 @@ http_conn::HTTP_STATE http_conn::process_read()
 
 http_conn::HTTP_STATE http_conn::parse_request_line(char* ipCurLine)
 {
-     //char* strpbrk(const char* str1,const char* str2)
+    //char* strpbrk(const char* str1,const char* str2)
     //检索字符串str1中第一个匹配字符串str2的字符；遍历str1中的字符，查看其是否在str2中
 
     //http报文的第一行是请求行，有三个字段：方法、URL、版本

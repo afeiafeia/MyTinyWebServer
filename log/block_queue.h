@@ -132,11 +132,9 @@ public:
     //若当前没有线程等待条件变量,则唤醒无意义
     bool push(const T &item)
     {
-
         m_mutex.Lock();
         if (m_size >= m_max_size)
         {
-
             m_cond.Broadcast();
             m_mutex.UnLock();
             return false;
