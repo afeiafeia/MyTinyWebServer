@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "TinyWeb",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/MyTinyWeb/test/test_log.cpp",
+                "${workspaceFolder}/MyTinyWeb/log/log.cpp",
+                "${workspaceFolder}/MyTinyWeb/lock/locker.cpp",
+                "${workspaceFolder}/MyTinyWeb/lock/cond.cpp",
+                "${workspaceFolder}/MyTinyWeb/lock/sem.cpp",
+                "-lpthread -lmysqlclient",
+                "-o",
+                "./testLog"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        }
+
+    ],
+    "version": "2.0.0"
+}
