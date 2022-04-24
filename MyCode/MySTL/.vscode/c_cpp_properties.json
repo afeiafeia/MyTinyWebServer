@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:\\Packages\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                "${workspaceFolder}/**" //“/**表示递归查找：会查找该文件夹下的所有路径，workspaceFolder是根路径（VSCODETEST）
+                //"E:\\Code\\VSCodeTest\\circle\\circle"
+                //"E:\\Code\\VSCodeTest\\circle\\debug\\inc\\" //此处包含的路径是用于自动补全，在实际编译过程中并不会通过预编译器加载到指定文件（该处的文件并不会参与编译，参与编译的在task.json中配置）
+                //"E:\\Code\\VSCodeTest\\circle"
+            ],
+            "browse": {
+                "path": [
+                    "D:\\Packages\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+                    //"E:\\Code\\VSCodeTest\\circle\\debug\\inc\\"
+                    //"E:\\Code\\VSCodeTest\\circle\\debug\\lib",
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\Packages\\mingw64\\bin\\g++.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

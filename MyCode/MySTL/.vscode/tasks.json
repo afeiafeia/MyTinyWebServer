@@ -1,0 +1,29 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "task g++",
+            "command": "D:\\Packages\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",     //"-g"表示生成可执行文件，"-c"表示生目标文件
+                //"E:\\Code\\VSCodeTest\\circle\\circle\\.cpp", //源文件的路径，可以是一个文件夹，这是会编译文件夹中的所有.cpp
+                //"E:\\Code\\VSCodeTest\\circle\\main\\main.cpp",
+                "main.cpp",
+                //"-I",    //将头文件包含进来
+                //"E:\\Code\\VSCodeTest\\circle\\debug\\inc\\", //头文件的路径
+                "-o", //表示输出，其后是文件的生成路径和名称，可以省略此符号（其后面的生成文件路径和名称也要省略），此时会按照默认名称和路径生成
+                "${workspaceFolder}\\build\\main.exe"  //生成的文件的路径以及名称
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        },
+       
+    ],
+    "version": "2.0.0"
+}

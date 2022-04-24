@@ -1,0 +1,16 @@
+Class Parent1
+   size=4 align=4
+   base size=4 base align=4
+Parent1 (0x0x7f197bb77960) 0
+
+Class Parent2
+   size=4 align=4
+   base size=4 base align=4
+Parent2 (0x0x7f197bb779c0) 0
+
+Class Child
+   size=16 align=8
+   base size=16 base align=8
+Child (0x0x7f197ba0d1a0) 0
+  Parent1 (0x0x7f197bb77a20) 0
+
